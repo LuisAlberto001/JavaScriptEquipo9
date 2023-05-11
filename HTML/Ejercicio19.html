@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="icon" href="../IMG/tecnm.png">
+  <title>Ejercicio 19</title>
+  <script type="text/javascript" src="../JavaScript/Ejercicio19.js"></script>
+  <link rel="stylesheet" href="../CSS/base.css">
+  </head>
+  
+  <body>
+    <div class="head">
+      <div class="logo">
+      <a href="../index.html"><figure><img src="../IMG/tecnm.png" height="75px" width="75px" alt="tecnm"></figure></a>
+      </div>
+      
+      <nav class="navbar">
+          <a href="../index.html">Inicio</a>
+          <a  href='https://api.whatsapp.com/send?phone=522712549431&text=Hola'
+          target='_blank'
+          rel='noreferrer'>Contactanos</a>
+      </nav>
+    </div>
+
+    <div class="content13">
+      <h1>Juego de Adivina numero</h1>
+      <p>Se ha generado un valor de entre 1 y 100. Vea si puede adivinarlo en 10 turnos o menos. Le diremos si su estimación fue demasiado alta o demasiado baja.</p>
+      <div class="form">
+        <label for="campoAdivina">Ingrese el valor que piensa: </label>
+        <input type="text" id="campoAdivina" class="campoAdivina">
+        <input type="submit" value="Adivina" class="adivinaSubmit">
+      </div>
+      <div class="resultParas">
+        <p class="adivinanzas"></p>
+        <p class="ultimoResultado"></p>
+        <p class="bajoOAlto"></p>
+      </div>
+      <button id="resetButton" class="resetButton" style="display:none;">Iniciar nuevo Juego</button>
+    </div>
+
+  </body>
+  </html>        
